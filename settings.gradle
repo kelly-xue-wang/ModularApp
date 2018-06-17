@@ -1,0 +1,1 @@
+include ':app' , ':sharedmodules:moduleBase', ':sharedmodules:moduleSell', ':sharedmodules:moduleHMC', ':sharedmodules:moduleService'

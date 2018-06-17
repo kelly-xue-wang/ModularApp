@@ -1,0 +1,4 @@
+[submodule "sharedmodules"]
+	path = sharedmodules
+	url = https://github.com/kelly-xue-wang/sharedmodules.git
+	branch = developer
