@@ -17,8 +17,6 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name="com.example.kellywang.modulea.SellActivity"/>
-        <activity android:name="com.example.kellywang.moduleb.HMCActivity"/>
     </application>
 
 </manifest>

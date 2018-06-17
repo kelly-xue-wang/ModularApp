@@ -31,8 +31,10 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    //Common
     implementation project(':sharedmodules:moduleBase')
+    implementation project(':sharedmodules:moduleService')
+    //modules
     implementation project(':sharedmodules:moduleHMC')
     implementation project(':sharedmodules:moduleSell')
-    implementation project(':sharedmodules:moduleService')
 }
