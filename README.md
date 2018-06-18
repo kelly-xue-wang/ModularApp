@@ -37,7 +37,7 @@ class SellServiceImpl : ISellService {
 
 }
 ```
-##Communication
+## Communication
 Protocol Format: scheme://host/path
 
 Start Activity 
@@ -60,7 +60,7 @@ Get value from module
  }
 ```
 
-##Library Module
+## Library Module
 ### Setup router module
 ```kotlin
 class SellModuleLifeCycle(application: Application) : BaseModuleLifeCycle(application) {
@@ -95,7 +95,7 @@ class AppApplication : BaseApplication() {
 }
 
 ```
-##TODO
+## TODO
 * Protocol Management
 Protocol urls need to be managed properly
 
