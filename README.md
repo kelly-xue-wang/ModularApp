@@ -4,7 +4,7 @@ Sync the submodules
 ```
    git submodule sync && git submodule update --init --recursive
 ```
-##Modularization
+## Modularization
 Framework
 
 ![Framework](https://raw.githubusercontent.com/kelly-xue-wang/ModularApp/master/img/Router_Framework.jpeg)
