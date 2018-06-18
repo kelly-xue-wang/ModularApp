@@ -4,6 +4,7 @@ Sync the submodules
 ```
    git submodule sync && git submodule update --init --recursive
 ```
+##Modularization
 Framework
 
 ![Framework](https://raw.githubusercontent.com/kelly-xue-wang/ModularApp/master/img/Router_Framework.jpeg)
@@ -16,6 +17,10 @@ App build.gradle
     //modules
     implementation project(':sharedmodules:moduleHMC')
     implementation project(':sharedmodules:moduleSell')
+    //optional
+    implementation project(':sharedmodules:api:apilibbase')
+    implementation project(':sharedmodules:api:apilibHMC')
+    implementation project(':sharedmodules:api:apilibSell')
 ```
 ## moduleBase
 
@@ -99,7 +104,7 @@ class AppApplication : BaseApplication() {
 * Protocol Management
 Protocol urls need to be managed properly
 
-* Debug single module
+* Debug/run single module
 add gradle.properties to each module library and set `isLibModule = true`
 
 ```gradle

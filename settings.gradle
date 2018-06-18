@@ -1,1 +1,9 @@
-include ':app' , ':sharedmodules:moduleBase', ':sharedmodules:moduleSell', ':sharedmodules:moduleHMC', ':sharedmodules:moduleService'
+include ':app', ':apilibsell'
+include ':sharedmodules:moduleBase'
+include ':sharedmodules:moduleSell'
+include ':sharedmodules:moduleHMC'
+include ':sharedmodules:moduleService'
+include ':sharedmodules:api:apilibbase'
+include ':sharedmodules:api:apilibHMC'
+include ':sharedmodules:api:apilibSell'
+

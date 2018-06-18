@@ -37,4 +37,8 @@ dependencies {
     //modules
     implementation project(':sharedmodules:moduleHMC')
     implementation project(':sharedmodules:moduleSell')
+    //optional
+    implementation project(':sharedmodules:api:apilibbase')
+    implementation project(':sharedmodules:api:apilibHMC')
+    implementation project(':sharedmodules:api:apilibSell')
 }
