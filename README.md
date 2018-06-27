@@ -100,9 +100,6 @@ class AppApplication : BaseApplication() {
 }
 
 ```
-## TODO
-* Protocol Management
-Protocol urls need to be managed properly
 
 * Debug/run single module
 add gradle.properties to each module library and set `isLibModule = true`
@@ -114,3 +111,7 @@ if (isLibModule.toBoolean()) {
     apply plugin: 'com.android.application'
 }
 ```
+
+## TODO
+* Protocol Management
+Protocol urls need to be managed properly
