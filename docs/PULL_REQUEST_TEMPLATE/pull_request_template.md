@@ -16,7 +16,7 @@ Describe the big picture of your changes.
 - [ ] Follows the style guidelines of this project
 - [ ] Tested on all relevant SDK levles and flavors
 - [ ] Does this PR introduce a new library/pattern
-- [ ] Does this PR require a change of infrastrucute
+- [ ] Does this PR require a change of infrastructure
 ## Dependent PRs
 None
 ## Other information
