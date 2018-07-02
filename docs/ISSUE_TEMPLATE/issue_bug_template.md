@@ -25,4 +25,4 @@ None
 
 ## Checklist:
 - [ ] Follows the style guidelines of this project
-- [ ] Tested on all relevant SDK levles and flavors
+- [ ] Tested on all relevant SDK levels and flavors
